@@ -1,0 +1,61 @@
+[01-Nov-2020 05:02:04 UTC] PHP Warning:  include(includes/connection.php): failed to open stream: No such file or directory in /home/mdairy/public_html/unescoclubsmh.in/admin/index.php on line 133
+[01-Nov-2020 05:02:04 UTC] PHP Warning:  include(): Failed opening 'includes/connection.php' for inclusion (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home/mdairy/public_html/unescoclubsmh.in/admin/index.php on line 133
+[01-Nov-2020 05:02:04 UTC] PHP Warning:  mysqli_stmt_init() expects parameter 1 to be mysqli, null given in /home/mdairy/public_html/unescoclubsmh.in/admin/index.php on line 301
+[01-Nov-2020 05:02:04 UTC] PHP Warning:  mysqli_stmt_prepare() expects parameter 1 to be mysqli_stmt, null given in /home/mdairy/public_html/unescoclubsmh.in/admin/index.php on line 303
+[01-Nov-2020 05:02:04 UTC] PHP Warning:  mysqli_stmt_error() expects parameter 1 to be mysqli_stmt, null given in /home/mdairy/public_html/unescoclubsmh.in/admin/index.php on line 304
+[01-Nov-2020 10:42:12 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/mdairy/public_html/unescoclubsmh.in/admin/includes/connection.php on line 14
+[01-Nov-2020 10:42:12 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_error() in /home/mdairy/public_html/unescoclubsmh.in/admin/includes/connection.php:14
+Stack trace:
+#0 /home/mdairy/public_html/unescoclubsmh.in/admin/index.php(134): include()
+#1 {main}
+  thrown in /home/mdairy/public_html/unescoclubsmh.in/admin/includes/connection.php on line 14
+[01-Nov-2020 10:42:17 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/mdairy/public_html/unescoclubsmh.in/admin/includes/connection.php on line 14
+[01-Nov-2020 10:42:17 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_error() in /home/mdairy/public_html/unescoclubsmh.in/admin/includes/connection.php:14
+Stack trace:
+#0 /home/mdairy/public_html/unescoclubsmh.in/admin/index.php(134): include()
+#1 {main}
+  thrown in /home/mdairy/public_html/unescoclubsmh.in/admin/includes/connection.php on line 14
+[01-Nov-2020 10:42:19 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/mdairy/public_html/unescoclubsmh.in/admin/includes/connection.php on line 14
+[01-Nov-2020 10:42:19 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_error() in /home/mdairy/public_html/unescoclubsmh.in/admin/includes/connection.php:14
+Stack trace:
+#0 /home/mdairy/public_html/unescoclubsmh.in/admin/index.php(134): include()
+#1 {main}
+  thrown in /home/mdairy/public_html/unescoclubsmh.in/admin/includes/connection.php on line 14
+[01-Nov-2020 10:42:21 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/mdairy/public_html/unescoclubsmh.in/admin/includes/connection.php on line 14
+[01-Nov-2020 10:42:21 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_error() in /home/mdairy/public_html/unescoclubsmh.in/admin/includes/connection.php:14
+Stack trace:
+#0 /home/mdairy/public_html/unescoclubsmh.in/admin/index.php(134): include()
+#1 {main}
+  thrown in /home/mdairy/public_html/unescoclubsmh.in/admin/includes/connection.php on line 14
+[01-Nov-2020 10:43:22 UTC] PHP Warning:  include(includes/GenerateCertificate.php): failed to open stream: No such file or directory in /home/mdairy/public_html/unescoclubsmh.in/admin/view.php on line 21
+[01-Nov-2020 10:43:22 UTC] PHP Warning:  include(): Failed opening 'includes/GenerateCertificate.php' for inclusion (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home/mdairy/public_html/unescoclubsmh.in/admin/view.php on line 21
+[01-Nov-2020 10:43:38 UTC] PHP Warning:  include(includes/GenerateCertificate.php): failed to open stream: No such file or directory in /home/mdairy/public_html/unescoclubsmh.in/admin/view.php on line 21
+[01-Nov-2020 10:43:38 UTC] PHP Warning:  include(): Failed opening 'includes/GenerateCertificate.php' for inclusion (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home/mdairy/public_html/unescoclubsmh.in/admin/view.php on line 21
+[01-Nov-2020 10:43:47 UTC] PHP Warning:  include(includes/GenerateCertificate.php): failed to open stream: No such file or directory in /home/mdairy/public_html/unescoclubsmh.in/admin/view.php on line 21
+[01-Nov-2020 10:43:47 UTC] PHP Warning:  include(): Failed opening 'includes/GenerateCertificate.php' for inclusion (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home/mdairy/public_html/unescoclubsmh.in/admin/view.php on line 21
+[01-Nov-2020 10:43:47 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function GenerateCertificate() in /home/mdairy/public_html/unescoclubsmh.in/admin/view.php:40
+Stack trace:
+#0 {main}
+  thrown in /home/mdairy/public_html/unescoclubsmh.in/admin/view.php on line 40
+[01-Nov-2020 10:44:05 UTC] PHP Warning:  include(includes/GenerateCertificate.php): failed to open stream: No such file or directory in /home/mdairy/public_html/unescoclubsmh.in/admin/view.php on line 21
+[01-Nov-2020 10:44:05 UTC] PHP Warning:  include(): Failed opening 'includes/GenerateCertificate.php' for inclusion (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home/mdairy/public_html/unescoclubsmh.in/admin/view.php on line 21
+[01-Nov-2020 10:44:05 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function GenerateCertificate() in /home/mdairy/public_html/unescoclubsmh.in/admin/view.php:40
+Stack trace:
+#0 {main}
+  thrown in /home/mdairy/public_html/unescoclubsmh.in/admin/view.php on line 40
+[05-Dec-2020 18:21:50 UTC] PHP Warning:  imagecreatefromjpeg(certificates/template.jpg): failed to open stream: No such file or directory in /home/mdairy/public_html/unescoclubsmh.in/admin/includes/generateCertificate.php on line 4
+[05-Dec-2020 18:21:50 UTC] PHP Warning:  imagecolorallocate() expects parameter 1 to be resource, bool given in /home/mdairy/public_html/unescoclubsmh.in/admin/includes/generateCertificate.php on line 7
+[05-Dec-2020 18:21:50 UTC] PHP Warning:  imagesx() expects parameter 1 to be resource, bool given in /home/mdairy/public_html/unescoclubsmh.in/admin/includes/generateCertificate.php on line 17
+[05-Dec-2020 18:21:50 UTC] PHP Warning:  imagesy() expects parameter 1 to be resource, bool given in /home/mdairy/public_html/unescoclubsmh.in/admin/includes/generateCertificate.php on line 18
+[05-Dec-2020 18:21:50 UTC] PHP Warning:  imagettftext() expects parameter 1 to be resource, bool given in /home/mdairy/public_html/unescoclubsmh.in/admin/includes/generateCertificate.php on line 30
+[05-Dec-2020 18:21:50 UTC] PHP Warning:  imagejpeg() expects parameter 1 to be resource, bool given in /home/mdairy/public_html/unescoclubsmh.in/admin/includes/generateCertificate.php on line 48
+[05-Dec-2020 18:22:52 UTC] PHP Warning:  imagejpeg(certificates/Uttarakhand/160718979194214.jpg): failed to open stream: No such file or directory in /home/mdairy/public_html/unescoclubsmh.in/admin/includes/generateCertificate.php on line 48
+[05-Dec-2020 18:23:31 UTC] PHP Warning:  imagecreatefromjpeg(../../certificates/template.jpg): failed to open stream: No such file or directory in /home/mdairy/public_html/unescoclubsmh.in/admin/includes/generateCertificate.php on line 4
+[05-Dec-2020 18:23:31 UTC] PHP Warning:  imagecolorallocate() expects parameter 1 to be resource, bool given in /home/mdairy/public_html/unescoclubsmh.in/admin/includes/generateCertificate.php on line 7
+[05-Dec-2020 18:23:31 UTC] PHP Warning:  imagesx() expects parameter 1 to be resource, bool given in /home/mdairy/public_html/unescoclubsmh.in/admin/includes/generateCertificate.php on line 17
+[05-Dec-2020 18:23:31 UTC] PHP Warning:  imagesy() expects parameter 1 to be resource, bool given in /home/mdairy/public_html/unescoclubsmh.in/admin/includes/generateCertificate.php on line 18
+[05-Dec-2020 18:23:31 UTC] PHP Warning:  imagettftext() expects parameter 1 to be resource, bool given in /home/mdairy/public_html/unescoclubsmh.in/admin/includes/generateCertificate.php on line 30
+[05-Dec-2020 18:23:31 UTC] PHP Warning:  imagejpeg() expects parameter 1 to be resource, bool given in /home/mdairy/public_html/unescoclubsmh.in/admin/includes/generateCertificate.php on line 48
+[05-Dec-2020 18:23:57 UTC] PHP Warning:  imagejpeg(certificates/Uttarakhand/160718979194214.jpg): failed to open stream: No such file or directory in /home/mdairy/public_html/unescoclubsmh.in/admin/includes/generateCertificate.php on line 48
+[04-Jun-2021 17:52:30 UTC] PHP Warning:  imagejpeg(../certificates/Maharashtra/162282897398485.jpg): failed to open stream: No such file or directory in /home/mdairy/public_html/unescoclubsmh.in/admin/includes/generateCertificate.php on line 48
+[04-Jun-2021 17:52:30 UTC] PHP Warning:  filemtime(): stat failed for ../certificates/Maharashtra/162282897398485.jpg in /home/mdairy/public_html/unescoclubsmh.in/admin/view.php on line 89
